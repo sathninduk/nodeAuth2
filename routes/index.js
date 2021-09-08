@@ -38,7 +38,7 @@ router.get('/', ensureAuthenticated, function (req, res, next) {
 						console.log(err);
 					} else {
 						res.render('index', {
-							title: "Home - Star Party, Sri Lanka '21",
+							title: "Home - nodeBase by Coduza",
 							rounds: results
 						});
 					}

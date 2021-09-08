@@ -1,20 +1,12 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://sathnindu:wow123@cluster0.3uyua.mongodb.net/starparty?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://coduza:xsi0xKjtMEs3O19Q@cluster0.z662u.mongodb.net/nodebase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 	useUnifiedTopology: true,
 	useFindAndModify: false,
 	useCreateIndex: true
 });
 
-/*
-mongoose.connect('mongodb+srv://starparty:quGlVqvlyHjYoyLV@cluster0.ys6rk.mongodb.net/starparty?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
-	useUnifiedTopology: true,
-	useFindAndModify: false,
-	useCreateIndex: true
-});
-*/
 
 var conn = mongoose.connection;
 conn.on('connected', function () {

@@ -1,7 +1,6 @@
 {
-  "name": "nodebase",
-  "description": "The backend of the official Node.js base of Coduza-Bases",
-  "version": "1.0.0",
+  "name": "starparty_lk",
+  "version": "0.0.0",
   "private": false,
   "scripts": {
     "start": "node ./bin/www"

@@ -1,2 +1,2 @@
-# nodeBase
-The official Node.js base of the Coduza-Bases project
+# votechno
+ Votechno e-courses management platform
